@@ -96,7 +96,7 @@ const ProductDetails = () => {
             Default
           </h2>
         </div>
-        <div className='flex sm:gap-8 gap-2 px-6 py-2 text-gray-400'>
+        <div className='flex sm:gap-8 gap-2 sm:px-6 py-2 text-gray-400'>
           <Link className="link" to={`/singlepage/${itemId - 1}`}>
             <button onClick={goToPrevProduct} className='px-2 rounded-md sm:text-lg text-xs'>Prev</button>
           </Link>
