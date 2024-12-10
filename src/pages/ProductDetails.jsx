@@ -82,27 +82,27 @@ const ProductDetails = () => {
   return (
     <div className=' font-[montserrat]'>
       <Navbar />
-      <div className='flex justify-between mb-8 bg-slate-800 py-2 px-4 sm:mt-40 mt-52'>
+      <div className='flex justify-between mb-8 bg-slate-800 py-2 sm:px-4 sm:mt-40 mt-52'>
         <div className='flex py-2 text-gray-400'>
-          <h2 className='sm:text-lg text-sm'>
+          <h2 className='sm:text-lg text-xs'>
             Home {'>'}
           </h2>
           <Link to={'/products'} >
-            <h2 className='sm:text-lg text-sm'>
+            <h2 className='sm:text-lg text-xs'>
               Products {'>'}
             </h2>
           </Link>
-          <h2 className='sm:text-lg text-sm'>
+          <h2 className='sm:text-lg text-xs'>
             Default
           </h2>
         </div>
         <div className='flex sm:gap-8 gap-2 px-6 py-2 text-gray-400'>
           <Link className="link" to={`/singlepage/${itemId - 1}`}>
-            <button onClick={goToPrevProduct} className='px-2 rounded-md sm:text-lg text-sm'>Prev</button>
+            <button onClick={goToPrevProduct} className='px-2 rounded-md sm:text-lg text-xs'>Prev</button>
           </Link>
 
           <Link className="link" to={`/singlepage/${itemId + 1}`}>
-            <button onClick={goToNextProduct} className='px-2 rounded-md sm:text-lg text-sm'>Next</button>
+            <button onClick={goToNextProduct} className='px-2 rounded-md sm:text-lg text-xs'>Next</button>
           </Link>
         </div>
       </div>
