@@ -53,13 +53,13 @@ const Navbar = () => {
                     </Link>
                 </div>
             </div>
-            <div className='flex gap-2 md:justify-between items-center bg-slate-600 sm:px-16 px-1 pt-1'>
+            <div className='flex gap-2 md:justify-between items-center bg-slate-600 xs:px-16 px-1 pt-1'>
                 <div className='w-fit bg-red-500 sm:px-4 py-2 rounded-full'>
                     <h1 className='text-xl text-white xs:scale-[100%] scale-[80%]'>GetItNow</h1>
                 </div>
                 <div className="flex flex-row">
                     <div className='flex xs:gap-2 xs:px-6 py-2 '>
-                        <input type="text" className='border lg:w-[500px] md:w-[300px] w-[100px] py-2' value={searchQuery} onChange={handleSearch} />
+                        <input type="text" className='border lg:w-[500px] md:w-[300px] w-[70px] py-2' value={searchQuery} onChange={handleSearch} />
                         <div className='bg-amber-100 hover:bg-amber-200 cursor-pointer hover:transition ease-in-out flex items-center px-4'>
                             <Link to='/searched'>
                                 <FontAwesomeIcon icon={faSearch} />
