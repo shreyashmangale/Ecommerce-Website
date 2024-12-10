@@ -45,20 +45,20 @@ const Navbar = () => {
                         Call +0123 456 789
                     </h2>
                 </div>
-                <div className='flex items-center sm:gap-8 gap-4 px-6 py-2'>
+                <div className='flex items-center xs:gap-8 gap-4 px-6 py-2'>
                     <h2>USD</h2>
                     <h2>English</h2>
                     <Link to="/auth/register">
-                        <button className='hover:bg-amber-500 sm:px-4 py-2 rounded-md hover:transition ease-in-out'>Sign Up</button>
+                        <button className='hover:bg-amber-500 xs:px-4 py-2 rounded-md hover:transition ease-in-out'>Sign Up</button>
                     </Link>
                 </div>
             </div>
             <div className='flex gap-2 md:justify-between items-center bg-slate-600 sm:px-16 px-1 pt-1'>
                 <div className='w-fit bg-red-500 sm:px-4 py-2 rounded-full'>
-                    <h1 className='text-xl text-white'>GetItNow</h1>
+                    <h1 className='text-xl text-white xs:scale-[100%] scale-[80%]'>GetItNow</h1>
                 </div>
                 <div className="flex flex-row">
-                    <div className='flex gap-2 sm:px-6 py-2 '>
+                    <div className='flex xs:gap-2 xs:px-6 py-2 '>
                         <input type="text" className='border lg:w-[500px] md:w-[300px] w-[100px] py-2' value={searchQuery} onChange={handleSearch} />
                         <div className='bg-amber-100 hover:bg-amber-200 cursor-pointer hover:transition ease-in-out flex items-center px-4'>
                             <Link to='/searched'>
@@ -66,7 +66,7 @@ const Navbar = () => {
                             </Link>
                         </div>
                     </div>
-                    <div className='flex items-center sm:gap-10 gap-2 px-6 py-2'>
+                    <div className='flex items-center xs:gap-10 gap-2 xs:px-6 px-2 py-2'>
                         <div className='relative'>
                             <div className='w-[20px] h-[20px] rounded-full bg-amber-200 absolute right-[-5px] top-[-5px] text-center'>
                                 <h1 className='text-xs'>{wishlistItemsLength}</h1>
