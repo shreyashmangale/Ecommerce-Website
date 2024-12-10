@@ -82,7 +82,7 @@ const ProductDetails = () => {
   return (
     <div className=' font-[montserrat]'>
       <Navbar />
-      <div className='flex justify-between mb-8 bg-slate-800 py-2 px-4 sm:mt-40 mt-44'>
+      <div className='flex justify-between mb-8 bg-slate-800 py-2 px-4 sm:mt-40 mt-52'>
         <div className='flex py-2 text-gray-400'>
           <h2 className='sm:text-lg text-sm'>
             Home {'>'}
