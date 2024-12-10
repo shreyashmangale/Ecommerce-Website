@@ -67,7 +67,7 @@ const Navbar = () => {
                         </div>
                     </div>
                     <div className='flex items-center xs:gap-10 gap-2 xs:px-6 px-2 py-2'>
-                        <div className='relative'>
+                        <div className='relative xs:scale-[100%] scale-[80%]'>
                             <div className='w-[20px] h-[20px] rounded-full bg-amber-200 absolute right-[-5px] top-[-5px] text-center'>
                                 <h1 className='text-xs'>{wishlistItemsLength}</h1>
                             </div>
@@ -76,7 +76,7 @@ const Navbar = () => {
                             </Link>
                         </div>
 
-                        <div className='relative'>
+                        <div className='relative xs:scale-[100%] scale-[80%]'>
                             <div className='w-[20px] h-[20px] rounded-full bg-amber-200 absolute right-[-5px] top-[-5px] text-center'>
                                 <h1 className='text-xs'>{cartItemsLength}</h1>
                             </div>
