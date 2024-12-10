@@ -84,7 +84,7 @@ const Dashboard = () => {
                   {data.map(item => <div key={item.id} className="w-full h-fit flex flex-col justify-between items-center bg-white border-2 rounded-lg sm:px-2 px-1 sm:py-4 py-2">
                     <div className=''>
                       <Link className="link" to={`/singlepage/${item.id}`}>
-                        <img className='h-[200px] sm:p-8 p-4' src={item.image} alt="" />
+                        <img className='sm:h-[200px] h-[100px] sm:p-8 p-4' src={item.image} alt="" />
                       </Link>
                     </div>
                     <div className='text-center'>
