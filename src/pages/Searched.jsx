@@ -43,10 +43,16 @@ const Searched = () => {
                             </div>
                             <div className='sm:mt-4 mt-1 flex sm:flex-nowrap flex-wrap sm:gap-4 gap-2'>
                                 <Link className="link" to={`/singlepage/${item.id}`}>
-                                    <button className="bg-gray-800 px-2 py-1 sm:text-sm text-xs text-white rounded-lg">Read More</button>
-                                </Link>
-                                <button className="bg-gray-800 px-2 py-1 sm:text-sm text-xs text-white rounded-lg" onClick={() => addToCart(item)}>Add to Cart</button>
-                                <button className="bg-gray-800 px-2 py-1 sm:text-sm text-xs text-white rounded-lg" onClick={() => addToWishlist(item)}>Add to Wishlist</button>
+                                <button className="bg-gray-800 px-2 py-1 text-xs text-white rounded-lg">Read More</button>
+                              </Link>
+                              <div className='flex gap-4'>
+                                <button className="bg-gray-800 px-2 py-1 sm:text-sm text-xs text-white rounded-lg" onClick={() => addToWishlist(item)}>
+                                  <FontAwesomeIcon icon={faHeart} color='orange' />
+                                </button>
+                                <button className="bg-gray-800 px-2 py-1 sm:text-sm text-xs text-white rounded-lg" onClick={() => addToCart(item)}>
+                                  <FontAwesomeIcon icon={faCartShopping} color='orange' />
+                                </button>
+                              </div>
                             </div>
                         </div>)}</ul> 
                         : 
