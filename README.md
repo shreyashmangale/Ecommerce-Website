@@ -9,15 +9,15 @@ This is the frontend of an eCommerce web application built using **React.js**. T
 - **Product Filtering**: Filter products by category.
 - **Responsive Design**: Fully responsive UI for a great experience on both desktop and mobile devices.
 - **Shopping Cart**: Add, remove, and update items in the shopping cart.
-- **Checkout Process**: Integrated user-friendly checkout system.
-- **API Integration**: Fetches data dynamically from a backend API.
+- **Wishlist**: Add, remove, and update items in the wishlist.
+- **API Integration**: Fetches data dynamically from a API.
 - **State Management**: Efficient state handling using React Context API/Redux.
 
 ## Technologies Used
 
 - **React.js**: Core framework for building the user interface.
 - **React Router**: For navigation and routing between pages.
-- **Redux/Context API**: State management for application-wide data handling.
+- **Redux and Context API**: State management for application-wide data handling.
 - **Axios**: HTTP client for API requests.
 - **Tailwind CSS**: For styling and responsive design.
 - **CSS Modules**: For component-level styling.
