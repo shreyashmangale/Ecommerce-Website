@@ -1,6 +1,6 @@
 # Ecommerce Website - Capstone Project Module 3 Frontend Development
 
-This is the frontend of an eCommerce web application built using **React.js**. The application provides a seamless shopping experience, allowing users to browse products, view details, add items to the cart, and proceed to checkout.
+This is the frontend of an Ecommerce web application built using **React.js**. The application provides a seamless shopping experience, allowing users to browse products, view details, add items to the cart, and proceed to checkout.
 
 ## Features
 
