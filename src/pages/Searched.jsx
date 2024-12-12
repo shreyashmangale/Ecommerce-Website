@@ -6,7 +6,9 @@ import Footer from '../components/Footer';
 import { Link } from 'react-router-dom';
 import { useCart } from '../context/cartContext.js';
 import { useWishlist } from '../context/wishlistContext.js';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
+import { faHeart } from '@fortawesome/free-regular-svg-icons'
 
 
 const Searched = () => {
